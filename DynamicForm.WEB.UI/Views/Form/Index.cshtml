@@ -1,0 +1,119 @@
+﻿@model List<DynamicForm.Model.Base.BaseModel.DynamicFormModel>
+@{
+    ViewBag.Title = "Index";
+}
+@section css{
+    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+    <style>
+        .hiddenRequired {
+            display: none !important;
+        }
+    </style>
+}
+<div style="margin-top: 5%;">
+    <button type="button" data-toggle="modal" data-target="#myModal" style="margin-bottom:3%;">+ Yeni Form Oluştur” </button>
+    <table id="myTable" class="table table-responsive table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Form Name</th>
+                <th>Description</th>
+                <td>Action</td>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FormId</td>
+                <td>@item.FormName</td>
+                <td>@item.Description</td>
+                <td><a href="/Form/Delete/@item.FormId">Delete</a> | <a href="/forms/@item.FormId">Detail</a></td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <div class="form-group">
+                        <label for="FormName">Form Name</label>
+                        <input type="text" class="form-control FormName" name="FormName" placeholder="Enter Form Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="FormDescription">Form Description</label>
+                        <textarea class="form-control FormDescription" name="FormDescription"></textarea>
+                    </div>
+                    <div class="DublicateArea form-inline hiddenRequired">
+                        <label>Required</label>
+                        <input type="checkbox" name="RequiredItem" value="" />
+                        <label>Type</label>
+                        <select name="TypeName">
+                            <option value="string">string</option>
+                            <option value="number">number</option>
+                            <option value="date">date</option>
+                            <option value="checkbox">checkbox</option>
+                        </select>
+                        <label>Name</label>
+                        <input type="text" name="ItemName" value="" />
+                        <button type="button" class="btn btn-xs btn-success" onclick="javascript: NewItem();">+ Add Row</button>
+                    </div>
+                    <div class="CopyArea"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" onclick="javascript: Save();" data-dismiss="modal" class="btn btn-sm btn-primary">Submit</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section scripts{
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script> 
+        $(document).ready(function () {
+            $('#myTable').DataTable();
+            var clone = $(".DublicateArea").clone().removeClass("DublicateArea hiddenRequired");
+            $(".CopyArea").append(clone);
+        });
+        function NewItem() {
+            var clone = $(".DublicateArea").clone().removeClass("DublicateArea hiddenRequired");
+            $(".CopyArea").append(clone);
+            $(".CopyArea > .form-inline:last").find("button").removeClass("btn-success").addClass("btn-danger").removeAttr("onclick").attr("onclick", "javascript:DeleteRow(this);").html("- Delete Row");
+        }
+        function DeleteRow(r) {
+            $(r).parent().remove();
+        }
+        function Save() {
+            var field_post = new Array();
+            field_post.push($(".FormName").attr("name") + "#" + $(".FormName").val());
+            field_post.push($(".FormDescription").attr("name") + "#" + $(".FormDescription").val());
+            $(".CopyArea>.form-inline").each(function (i) {
+                field_post.push($(this).children().eq(1).attr('name') + "#" + $(this).children().eq(1).is(":checked"));
+                field_post.push($(this).children().eq(3).attr('name') + "#" + $(this).children().eq(3).find("option:selected").val());
+                field_post.push($(this).children().eq(5).attr('name') + "#" + $(this).children().eq(5).val());
+            });
+            $.ajax({
+                method: "post",
+                url: "/Form/Create",
+                data: { "listData": field_post },
+                success: function (result) {
+                    alert("Ekleme başarılı");
+                    window.location.href = window.location.href;
+                }
+            });
+        }
+    </script>
+}

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98FBE6D7-853C-487C-956D-E8C856DC1103}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DynamicForm.Data.Repository.Derived</RootNamespace>
+    <AssemblyName>DynamicForm.Data.Repository.Derived</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IAccountRepository.cs" />
+    <Compile Include="IFormRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DynamicForm.Data.Entity\DynamicForm.Data.Entity.csproj">
+      <Project>{9D57D5F2-73F4-4CF0-BE04-E4003A0C2CE3}</Project>
+      <Name>DynamicForm.Data.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DynamicForm.Framework.Data.Infrastructure\DynamicForm.Framework.Data.Infrastructure.csproj">
+      <Project>{D7DB3272-F761-4299-ABB9-B8B13A09A626}</Project>
+      <Name>DynamicForm.Framework.Data.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DynamicForm.Framework.Data.Repository.Infrastructure\DynamicForm.Framework.Data.Repository.Infrastructure.csproj">
+      <Project>{F6680F6F-DB05-4BD7-AB67-216979B559D1}</Project>
+      <Name>DynamicForm.Framework.Data.Repository.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DynamicForm.Model.Base\DynamicForm.Model.Base.csproj">
+      <Project>{551F1379-34F0-490E-B73A-CE6C284CA7E1}</Project>
+      <Name>DynamicForm.Model.Base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

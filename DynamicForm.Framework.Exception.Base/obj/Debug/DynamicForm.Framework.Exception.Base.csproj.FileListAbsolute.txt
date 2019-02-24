@@ -1,0 +1,6 @@
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exception.Base\bin\Debug\DynamicForm.Framework.Exception.Base.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exception.Base\bin\Debug\DynamicForm.Framework.Exception.Base.pdb
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exception.Base\obj\Debug\DynamicForm.Framework.Exception.Base.csprojAssemblyReference.cache
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exception.Base\obj\Debug\DynamicForm.Framework.Exception.Base.csproj.CoreCompileInputs.cache
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exception.Base\obj\Debug\DynamicForm.Framework.Exception.Base.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exception.Base\obj\Debug\DynamicForm.Framework.Exception.Base.pdb

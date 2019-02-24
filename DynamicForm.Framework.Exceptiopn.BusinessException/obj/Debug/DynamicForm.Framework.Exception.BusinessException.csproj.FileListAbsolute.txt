@@ -1,0 +1,9 @@
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exceptiopn.BusinessException\bin\Debug\DynamicForm.Framework.Exceptiopn.BusinessException.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exceptiopn.BusinessException\bin\Debug\DynamicForm.Framework.Exceptiopn.BusinessException.pdb
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exceptiopn.BusinessException\bin\Debug\DynamicForm.Framework.Exception.Base.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exceptiopn.BusinessException\bin\Debug\DynamicForm.Framework.Exception.Base.pdb
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exceptiopn.BusinessException\obj\Debug\DynamicForm.Framework.Exception.BusinessException.csprojAssemblyReference.cache
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exceptiopn.BusinessException\obj\Debug\DynamicForm.Framework.Exception.BusinessException.csproj.CoreCompileInputs.cache
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exceptiopn.BusinessException\obj\Debug\DynamicForm.Framework.Exception.BusinessException.csproj.CopyComplete
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exceptiopn.BusinessException\obj\Debug\DynamicForm.Framework.Exceptiopn.BusinessException.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Exceptiopn.BusinessException\obj\Debug\DynamicForm.Framework.Exceptiopn.BusinessException.pdb

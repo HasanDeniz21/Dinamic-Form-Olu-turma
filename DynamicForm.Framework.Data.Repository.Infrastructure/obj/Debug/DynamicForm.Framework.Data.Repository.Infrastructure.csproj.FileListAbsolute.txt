@@ -1,0 +1,14 @@
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\bin\Debug\DynamicForm.Framework.Data.Repository.Infrastructure.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\bin\Debug\DynamicForm.Framework.Data.Repository.Infrastructure.pdb
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\bin\Debug\DynamicForm.Framework.Data.Infrastructure.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\bin\Debug\DynamicForm.Framework.Data.Infrastructure.pdb
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\obj\Debug\DynamicForm.Framework.Data.Repository.Infrastructure.csprojAssemblyReference.cache
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\obj\Debug\DynamicForm.Framework.Data.Repository.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\obj\Debug\DynamicForm.Framework.Data.Repository.Infrastructure.csproj.CopyComplete
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\obj\Debug\DynamicForm.Framework.Data.Repository.Infrastructure.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\obj\Debug\DynamicForm.Framework.Data.Repository.Infrastructure.pdb
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\bin\Debug\DynamicForm.Framework.Data.Repository.Infrastructure.dll.config
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Repository.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml

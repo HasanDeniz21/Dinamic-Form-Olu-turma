@@ -1,0 +1,5 @@
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Infrastructure\bin\Debug\DynamicForm.Framework.Data.Infrastructure.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Infrastructure\bin\Debug\DynamicForm.Framework.Data.Infrastructure.pdb
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Infrastructure\obj\Debug\DynamicForm.Framework.Data.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Infrastructure\obj\Debug\DynamicForm.Framework.Data.Infrastructure.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Framework.Data.Infrastructure\obj\Debug\DynamicForm.Framework.Data.Infrastructure.pdb

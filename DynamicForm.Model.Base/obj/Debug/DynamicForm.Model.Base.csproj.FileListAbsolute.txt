@@ -1,0 +1,6 @@
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Model.Base\bin\Debug\DynamicForm.Model.Base.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Model.Base\bin\Debug\DynamicForm.Model.Base.pdb
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Model.Base\obj\Debug\DynamicForm.Model.Base.csproj.CoreCompileInputs.cache
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Model.Base\obj\Debug\DynamicForm.Model.Base.dll
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Model.Base\obj\Debug\DynamicForm.Model.Base.pdb
+C:\Users\YCP\Desktop\MySpecialFolder\DynamicForm\DynamicForm.Model.Base\obj\Debug\DynamicForm.Model.Base.csprojAssemblyReference.cache
